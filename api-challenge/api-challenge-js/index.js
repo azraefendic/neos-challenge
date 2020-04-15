@@ -40,5 +40,5 @@ function formatResults(data) {
 }
 
 Promise.all([firstResult, secondResult]).then(results => {
-    console.log(JSON.stringify(results[0]));
+    console.log(JSON.stringify({ ...results[0], ...results[1] }));
 });
