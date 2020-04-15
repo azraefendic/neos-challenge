@@ -1,0 +1,14 @@
+{
+  "name": "code-challenge-js",
+  "version": "1.0.0",
+  "description": "Babbel Neos Code Challenge JavaScript",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "anortje",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
+}
