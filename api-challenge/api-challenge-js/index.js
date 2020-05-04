@@ -1,3 +1,12 @@
+// We want to get lists of movies! Use the URL below to do 2 API calls, with different parameters,
+// and follow the instructions below on what the output should look like.
+//
+// Feel free to use any other HTTP request library than the suggested in the challenges.
+//
+// URL: https://jsonmock.hackerrank.com/api/movies/search/?Title=_SEARCHTERM_
+//
+// (Hint replace the _SEARCHTERM_ text in the url)
+
 const fetch = require("node-fetch");
 
 // i wasn't sure about the instructions for the search terms

@@ -1,3 +1,19 @@
+// ## Learner Activity Challenge
+// We want to get some learning activity data of our learners!
+//
+// You will receive an array as an input, containing 1s or 0s, based on whether or not a learner completed a
+// lesson on that day (1 if they completed a lesson, 0 if not).
+//
+// ### Instructions
+// Assume that the array can be for any time period, but the learner status is based on a
+// rolling 7 day period (thus only take into account the last 7 days’ data).
+//
+// Return an array containing 3 values:
+//
+//   1. number of days that the user completed a lesson
+//   2. longest streak
+//   3. learner status based on the last 7 days
+
 function evaluateLearnerActivity(activityArray) {
     let activitySummary = [];
 
